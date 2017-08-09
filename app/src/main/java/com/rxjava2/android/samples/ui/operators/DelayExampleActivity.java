@@ -62,6 +62,7 @@ public class DelayExampleActivity extends AppCompatActivity {
                 e.onComplete();
                 e.onComplete();
 
+
             }
         })
                 .subscribeOn(Schedulers.io())
